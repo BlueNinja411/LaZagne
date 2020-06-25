@@ -240,7 +240,8 @@ chromium_browsers = [
     (u'torch', u'{LOCALAPPDATA}\\Torch\\User Data'),
     (u'uran', u'{LOCALAPPDATA}\\uCozMedia\\Uran\\User Data'),
     (u'vivaldi', u'{LOCALAPPDATA}\\Vivaldi\\User Data'),
-    (u'yandexBrowser', u'{LOCALAPPDATA}\\Yandex\\YandexBrowser\\User Data')
+    (u'yandexBrowser', u'{LOCALAPPDATA}\\Yandex\\YandexBrowser\\User Data'),
+    (u'msedge', u'{LOCALAPPDATA}\\Microsoft\\Edge\\User Data')
 ]
 
 chromium_browsers = [ChromiumBased(browser_name=name, paths=paths) for name, paths in chromium_browsers]
